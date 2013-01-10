@@ -1,4 +1,4 @@
-require(["knockout","jquery", "jqueryui", "dependency"], function (ko,$,$,d) {
+require(["knockout", "jqueryui", "dependency"], function (ko,$,d) {
     function ViewModel() {
         var self = this;
 

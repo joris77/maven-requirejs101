@@ -8,7 +8,6 @@ requirejs.config({
     },
     shim: {
         'jquery': {
-
             exports: '$'
         },
         'jqueryui': {
