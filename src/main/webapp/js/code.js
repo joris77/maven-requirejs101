@@ -1,4 +1,4 @@
-require(["js/lib/knockout/knockout-2.2.0.js","js/lib/jquery/jquery-1.8.2.js", "js/lib/jquery/jquery-ui-1.9.1.custom.js", "js/dependency.js"], function (ko) {
+require(["knockout","jquery", "jqueryui", "dependency"], function (ko) {
     function ViewModel() {
         var self = this;
 
