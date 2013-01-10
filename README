@@ -1,1 +1,7 @@
 If you use extension js than baseUrl is not honoured
+
+Command line you can call the optimizer like this much faster:
+
+node src/main/scripts/r.js -o src/main/config/requirejs-optimizer.js
+
+Uglify is the quicker and safer minifier, closure does slightly better compression.
