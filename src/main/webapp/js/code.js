@@ -1,8 +1,8 @@
-require(["knockout","jquery", "jqueryui", "dependency"], function (ko) {
+require(["knockout","jquery", "jqueryui", "dependency"], function (ko,$,$,d) {
     function ViewModel() {
         var self = this;
 
-        self.x = ko.observable(x());
+        self.x = ko.observable(d.x());
     }
 
     $(document).ready(function () {

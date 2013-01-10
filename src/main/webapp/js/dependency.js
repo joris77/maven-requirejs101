@@ -1,3 +1,5 @@
-function x(){
-    return "hi joris!";
-}
+define({
+    x: function () {
+        return "hi joris!";
+    }
+});
